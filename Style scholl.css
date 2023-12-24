@@ -1,0 +1,136 @@
+/* Your existing CSS styles can go here, and you can customize the following styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #420adb;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height of the logo as needed */
+}
+
+P{
+    text-decoration: solid;
+    font-weight: bold; /*text bold*/
+
+
+}
+
+#home p{
+    color: #fc09db; /* Change the color to your preference */
+    font-size: 16px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    text-align: center;
+}
+
+
+#about p{
+    color: #111111; /* Change the color to your preference */
+  font-size: 18px; /* Adjust the font size */
+  font-family: Arial, sans-serif; /* Specify the font family */
+  line-height: 1.6; /* Adjust the line height for better readability */
+  margin-bottom: 10px; /* Add margin to the bottom */
+}
+ 
+ #Achievements table{
+    margin: 0 auto; /* This centers the table horizontally */
+    width: 80%; /* Adjust the width as needed */
+    border-collapse: collapse;
+ } 
+
+ #Achievements table td{
+    padding: 10px;
+ }
+  
+
+ #Achievements table td img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+ }
+
+
+
+#win h6{
+    color: #333; /* Change the color to your preference */
+    font-size: 16px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    text-align: center;
+}
+
+#photos table{
+    margin: 0 auto; /* This centers the table horizontally */
+    width: 80%; /* Adjust the width as needed */
+    border-collapse: collapse;
+
+}
+
+#photos table td{
+    padding: 10px;
+}
+
+#photos table td img{
+    display: block;
+    margin:0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#contact{
+    text-align: center;
+  }
+
+#contact a{
+    display: inline-block;
+}
+
+#contact img{
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    
+}
+
+footer {
+    background-color: #2b5cc5;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
